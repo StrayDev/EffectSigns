@@ -133,7 +133,7 @@ public class EffectSigns extends JavaPlugin {
             power = Integer.parseInt(e.getLine(3));
         }
         catch(NumberFormatException n) {
-            plugin.getServer().getLogger().info("Error parsing Integers (getPotionEffect 89/90");
+            plugin.getServer().getLogger().info("Error parsing Integers (getPotionEffect");
             return null;
         }
         PotionEffect pe = new PotionEffect(p, duration, power);
