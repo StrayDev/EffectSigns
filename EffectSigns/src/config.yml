@@ -1,0 +1,15 @@
+config:
+  # The prefix that will appear on the first line of effect signs. Be careful changing this, as any signs without this prefix will be invalidated.
+  signPrefix: "&f[&eEffect&f]"
+
+  #The prefix that will appear in chat messages
+  chatPrefix: "&f[&eEffectSigns&f]"
+
+  # How often users are allowed to click a sign, in seconds. Set to 0 to disable.
+  signCooldown: 0
+
+chat:
+  noUsePermission: "&cYou do not have permission to use this."
+  noCommandPermission: "&cYou do not have permission to perform this command."
+  noCreatePermission: "&cYou do not have permission to create effect signs."
+  noBreakPermission: "&cYou do not have permission to break effect signs."

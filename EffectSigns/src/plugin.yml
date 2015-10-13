@@ -1,0 +1,16 @@
+name: EffectSigns
+author: Stray
+version: 1.0
+main: io.github.straydev.EffectSigns
+permissions:
+  effectsigns.create:
+    default: op
+  effectsigns.destroy:
+    default: op
+  effectsigns.use:
+    default: op
+  effectsigns.cooldown.bypass:
+    default: op
+commands:
+  effectsigns:
+    description: Main EffectSigns command.
