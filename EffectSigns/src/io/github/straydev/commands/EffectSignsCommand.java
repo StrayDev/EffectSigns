@@ -18,7 +18,7 @@ public class EffectSignsCommand implements CommandExecutor {
         if(cmd.getName().equalsIgnoreCase("effectsigns")) {
             if(args.length == 1) {
                 if(args[0].equalsIgnoreCase("reload")) {
-                    if(sender.hasPermission("effectsigns.reload")) {
+                    if(sender.isOp()) {
                         EffectSigns.plugin.reloadConfig();
                         EffectSigns.loadConfig();
                         sender.sendMessage(EffectSigns.chatPrefix + ChatColor.GRAY + "Config reloaded.");
